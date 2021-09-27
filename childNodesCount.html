@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    // function a (){
+    //     var divel = document.getElementById('divHolder');
+    
+    // // 경고창, childNodes: 자식 태그
+    // alert ("divHolder div의 자식노드의 갯수는 :" + divel.childNodes.length);  
+    // }
+    
+    // window.onload= a();
+
+    window.onload = function(){
+    // 변수 선언, divHolder란 이름의 태그 검색 
+    var divel = document.getElementById('divHolder');
+    
+    // 경고창, childNodes: 자식 태그
+    alert ("divHolder div의 자식노드의 갯수는 :" + divel.childNodes.length);
+}
+    </script>
+</head>
+<body>
+    <div id="divHolder">
+        <!-- Ajax 정복 루트 -->
+        <div>HTML</div>
+        <div>JavaScript</div>
+        <div>DOM</div>
+        <div>Ajax</div>
+    </div>
+</body>
+</html>

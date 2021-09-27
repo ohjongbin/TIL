@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         function show()
+ { 
+    // DIV 태그 검색
+    var parentdiv = document.getElementById("textHolder");
+    
+    parentdiv.appendChild(document.createTextNode("CBD Developer 8 "));
+    
+    // // 새로운 DIV 태그 생성
+    // var divel = document.createElement("div");
+    // // 새로운 DIV태그에 텍스트 생성
+    // divel.appendChild(document.createTextNode("CBD Developer 8"));
+    // // 새로운 DIV 태그를 부모 DIV 태그인 'textHolder'에 추가
+    // parentdiv.appendChild(divel);
+ 
+ }
+    </script>
+</head>
+<body>
+    <button onclick="show()" > text 추가</button>
+    <div id="textHolder"></div>
+</body>
+</html>
